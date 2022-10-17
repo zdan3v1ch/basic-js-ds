@@ -26,7 +26,7 @@ class Queue {
 
   enqueue(value) {
 
-    let node = new ListNode(value);
+    const node = new ListNode(value);
 
     if (this.head) {
       this.tail.next = node;
@@ -41,7 +41,7 @@ class Queue {
   }
 
   dequeue() {
-    let current = this.head;
+    const current = this.head;
     this.head = this.head.next;
 
     return current.value
