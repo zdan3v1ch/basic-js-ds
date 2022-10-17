@@ -18,10 +18,10 @@ class Queue {
   constructor() {
     this.head = null;
     this.tail = null;
-}
+  }
 
   getUnderlyingList() {
-    return this
+    return this.Queue
   }
 
   enqueue(value) {
@@ -41,10 +41,10 @@ class Queue {
   }
 
   dequeue() {
-let current = this.head;
-this.head = this.head.next;
+    let current = this.head;
+    this.head = this.head.next;
 
-return current.value
+    return current.value
   }
 }
 
