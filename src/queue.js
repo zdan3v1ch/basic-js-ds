@@ -21,7 +21,7 @@ class Queue {
   }
 
   getUnderlyingList() {
-    return this.Queue
+    return this.head
   }
 
   enqueue(value) {
