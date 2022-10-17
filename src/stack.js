@@ -14,15 +14,15 @@ const { NotImplementedError } = require('../extensions/index.js');
  */
 class Stack {
   push(element) {
-    return this.push(element)
+    return this.Stack.push(element)
   }
 
   pop() {
-    return this.pop()
+    return this.Stack.pop()
   }
 
   peek() {
-    return this[this.length-1]
+    return this.Stack[Stack.length-1]
   }
 }
 
